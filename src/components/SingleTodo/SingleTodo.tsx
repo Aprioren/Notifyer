@@ -3,7 +3,6 @@ import { ITodo } from '../../model';
 import { EditTodo, Form, Icon, IconsContainer, Text } from './SingleTodo.styled';
 import {AiFillEdit, AiFillDelete} from 'react-icons/ai';
 import {MdDone} from 'react-icons/md';
-import { TodoList } from '../TodoList/TodoList';
 import { Draggable } from 'react-beautiful-dnd';
 interface IProps{
   index: number;
